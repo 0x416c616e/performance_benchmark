@@ -4,9 +4,15 @@ A multithreaded Java program that tests your computer's performance.
 
 ## Screenshots
 
+### Resource usage during the benchmark
+
 ![Screenshot of task manager during benchmark](https://raw.githubusercontent.com/0x416c616e/performance_benchmark/main/screenshots/task_manager.PNG)
 
+### What the benchmark window looks like
+
 ![What the benchmark window looks like](https://raw.githubusercontent.com/0x416c616e/performance_benchmark/main/screenshots/window.PNG)
+
+### Viewing how long it took to complete the benchmark
 
 ![Finished result of the benchmark](https://raw.githubusercontent.com/0x416c616e/performance_benchmark/main/screenshots/command_prompt.PNG)
 
