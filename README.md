@@ -1,12 +1,15 @@
 # Performance Benchmark
 
+A multithreaded Java program that tests your computer's performance.
+
+## Screenshots
+
 ![Screenshot of task manager during benchmark](https://raw.githubusercontent.com/0x416c616e/performance_benchmark/main/screenshots/task_manager.PNG)
 
 ![What the benchmark window looks like](https://raw.githubusercontent.com/0x416c616e/performance_benchmark/main/screenshots/window.PNG)
 
 ![Finished result of the benchmark](https://raw.githubusercontent.com/0x416c616e/performance_benchmark/main/screenshots/command_prompt.PNG)
 
-A multithreaded Java program that tests your computer's performance.
 
 ## Warnings
 
@@ -16,7 +19,7 @@ This program was tested on a quad-core CPU from 2012 and it takes about 3 minute
 
 ## OS
 
-This is currently only meant for Windows, but maybe in the future I could add support for macOS/Linus
+This is currently only meant for Windows, but maybe in the future I could add support for macOS/Linux.
 
 ## Instructions
 
