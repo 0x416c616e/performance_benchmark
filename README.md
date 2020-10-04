@@ -23,6 +23,10 @@ Do not run this on a laptop. Laptops can overheat easily. Only run it on a deskt
 
 This program was tested on a quad-core CPU from 2012 and it takes about 3 minutes to complete. Older or slower processors will take longer, but newer processors, and especially Xeons or Ryzens, will do well in it because of the multithreaded nature. It can utilize all of your CPU cores/threads.
 
+## Cheap multithreaded performance
+
+Nowadays, you can get Xeon E5-2XXX-v4 CPUs for very cheap, and there are some interesting dual-LGA2011-3/X99 boards (but make sure they support v4 instead of v3 Xeons) online. It seems like a decent performance-per-dollar option to get a dual Xeon v4 build. The single-threaded performance isn't amazing, but it's cheap overall and gets good multithreaded performance, which can be useful for compiling code, as well as benchmarks like this program. 
+
 ## OS
 
 This is currently only meant for Windows, but maybe in the future I could add support for macOS/Linux.
@@ -30,7 +34,7 @@ This is currently only meant for Windows, but maybe in the future I could add su
 ## Instructions
 
 1. You need to have Java 15 installed in order to run the program.
-2. Open a task manager window to monitor resource usage
+2. Open a task manager window to monitor resource usage.
 3. Click on the RUN_BENCHMARK.bat file.
 4. It will take a while, but a JavaFX window with the title "Benchmark" will open up.
 5. Long story short, it was hard to make the program monitor when everything was displayed, so you need to manually watch the benchmark and click on the "click me to end the benchmark" button in order to end it and log how long it took to run.
