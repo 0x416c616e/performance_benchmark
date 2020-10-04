@@ -19,7 +19,7 @@ A multithreaded Java program that tests your computer's performance.
 
 ## Warnings
 
-Do not run this on a laptop. Laptops can overheat easily. Only run it on a desktop, and only use it on desktops that have good cooling. It's also recommended that you have 16-32GB of RAM, as this program can use 9GB or so of RAM when it's running.
+Do not run this on a laptop. Laptops can overheat easily. Only run it on a desktop, and only use it on desktops that have good cooling. It's also recommended that you have 16-32GB of RAM, as this program can use about 9GB of RAM when it's running. **8GB RAM is not enough to run this program!**
 
 This program was tested on a quad-core CPU from 2012 and it takes about 3 minutes to complete. Older or slower processors will take longer, but newer processors, and especially Xeons or Ryzens, will do well in it because of the multithreaded nature. It can utilize all of your CPU cores/threads.
 
@@ -28,6 +28,8 @@ Run this at your own risk. It is intended to be a stress test and performance te
 ## Cheap multithreaded performance
 
 Nowadays, you can get Xeon E5-2XXX-v4 CPUs for very cheap, and there are some interesting dual-LGA2011-3/X99 boards (but make sure they support v4 instead of v3 Xeons) online. It seems like a decent performance-per-dollar option to get a dual Xeon v4 build. The single-threaded performance isn't amazing, but it's cheap overall and gets good multithreaded performance, which can be useful for compiling code, as well as benchmarks like this program. 
+
+In particular, a dual Xeon E5-2680-v4 setup with a dual socket LGA2011-3/X99 board from AliExpress seems like good performance for very little money. 
 
 ## OS
 
